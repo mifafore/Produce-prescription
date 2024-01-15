@@ -1,0 +1,25 @@
+#home {
+  padding-bottom: 0px;
+}
+
+#content p {
+  text-align: start;
+}
+
+#content li {
+  color: #000;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.apply-link {
+  color: #582c83;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+@media (max-width: 1260px) {
+  #content {
+    margin-inline: 20px;
+  }
+}

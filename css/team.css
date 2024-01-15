@@ -1,0 +1,37 @@
+#home {
+  padding-bottom: 0px;
+}
+
+#content {
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1260px) {
+  #content {
+    margin-inline: 20px;
+  }
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  list-style: none;
+  gap: 3.5rem;
+  padding: 0;
+}
+
+.team-member img {
+  height: 256px;
+  width: 256px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.team-member p {
+  font-weight: 500;
+}
